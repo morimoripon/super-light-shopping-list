@@ -1,0 +1,2 @@
+# cp .dev.vars.example .dev.vars してローカル開発用のトークンを設定
+API_TOKEN=dev-token-change-me
