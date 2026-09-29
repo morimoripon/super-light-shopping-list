@@ -1,0 +1,13 @@
+{
+  "name": "super-light-shopping-list",
+  "private": true,
+  "workspaces": ["api", "web"],
+  "scripts": {
+    "dev:api": "npm run dev -w api",
+    "dev:web": "npm run dev -w web",
+    "build": "npm run build -w web",
+    "typecheck": "npm run typecheck -w api && npm run typecheck -w web",
+    "test": "npm run test -w web",
+    "deploy": "npm run build && npm run deploy -w api"
+  }
+}
